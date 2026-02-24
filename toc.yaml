@@ -1,0 +1,17 @@
+toc:
+  properties:
+    subcollection: fedramp-govt-cloud
+    audience: solution
+    content-type: solution
+    category: solution_docs
+    use-case: Federal government, Government
+    industry: Federal government, Defense and national security
+    compliance: FedRAMP
+    href: /docs/fedramp-govt-cloud
+    path: fedramp-govt-cloud
+    label: IBM Cloud for Government (IC4G) Secure Configuration Guidance
+  entries:
+  - navgroup:
+      id: reference
+      topics:
+      - ic4g-secure-guidance-rev5.md
