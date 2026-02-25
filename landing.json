@@ -6,7 +6,15 @@
   "section_topics": {
     "links": [
       {
-        "title": "Secure Configuration Guidance",
+        "title": "FedRAMP Rev5 Guidance",
+        "href": "/docs/fedramp-govt-cloud"
+      },
+      {
+        "title": "What is IBM Cloud for Government?",
+        "href": "/docs/fedramp-govt-cloud"
+      },
+      {
+        "title": "IBM Cloud for Government (IC4G) Rev5 Secure Configuration Guidance",
         "href": "/docs/fedramp-govt-cloud"
       }
     ]
