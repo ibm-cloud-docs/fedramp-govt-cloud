@@ -6,15 +6,11 @@
   "section_topics": {
     "links": [
       {
-        "title": "FedRAMP Documentation",
-        "href": "https://www.fedramp.gov/docs"
-      },
-      {
         "title": "FedRAMP Rev5 Guidance",
         "href": "https://www.fedramp.gov/docs/rev5"
       },
       {
-        "title": "IBM Cloud for Government?",
+        "title": "IBM Cloud for Government",
         "href": "https://www.ibm.com/products/cloud/government"
       },
       {
