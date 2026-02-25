@@ -6,8 +6,8 @@
   "section_topics": {
     "links": [
       {
-        "title": "FedRAMP Rev5 Guidance",
-        "href": "/docs/fedramp-govt-cloud"
+        "title": "IBM Cloud for Government (IC4G) Rev5 Secure Configuration Guidance",
+        "href": "/docs/fedramp-govt-cloud?topic=fedramp-govt-cloud-ic4g-rev5-secure-configuration-guidance"
       },
       {
         "title": "IBM Cloud for Government",
@@ -38,7 +38,7 @@
     "tiles": [
       {
         "date": "01 March 2026",
-        "title": "Initial release of FedRAMP Rev5 guidance."
+        "title": "Initial release of FedRAMP Rev5 guidance for IBM Cloud for Government."
       }
     ]
   }

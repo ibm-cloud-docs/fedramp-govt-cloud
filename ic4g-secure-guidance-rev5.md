@@ -158,7 +158,7 @@ Once a user has been added to the account, the Master user can assign the follow
 - Add Brand Account – permission to create
 - Automated Brand Migration – permission to interface
 - Manage Account Notes
-- Manage EU Supported Account Flag (Set to No for all IC4G accounts)
+- Manage EU Supported Account Flag (This is set to **No** for all IC4G accounts)
 - Manage Users – manage users and assign permissions
 - Physically Access a Datacenter
 - Update Payment Details
@@ -169,7 +169,7 @@ Once a user has been added to the account, the Master user can assign the follow
 - Manage Email Delivery Service
 - Manage Notification Subscribers
 - Physically Access a Customer's CoLo Cage
-- Submit One-Time Payments (set to No for IC4G)
+- Submit One-Time Payments (This is set to **No** for all IC4G accounts)
 - View Account Summary
 
 ##### Sales
@@ -179,12 +179,12 @@ Once a user has been added to the account, the Master user can assign the follow
 - Add / Upgrade Services
 - Cancel Server
 - Upgrade Server
-- View Billing ACH information (not applicable to IC4G)
+- View Billing ACH information (This is not applicable to IC4G)
 - Add / Upgrade Cloud Instances
 - Add / Upgrade Storage
 - Cancel Services
 - Upgrade Services
-- View Reseller Order Pricing (not applicable to IC4G)
+- View Reseller Order Pricing (This is not applicable to IC4G)
 
 ##### Support
 {: #frr-src-01-guidance-support}
@@ -237,7 +237,7 @@ Once a user has been added to the account, the Master user can assign the follow
 - Manage Firewall Rules
 - Manage Load Balancers
 - Manage Network Subnet Routes
-- Manage Port Control – port status and speeds for connected devices
+- Manage Port Control (used to view port status and speeds for connected devices)
 - Manage Security Groups
 - View Bandwidth Statistics
 - Manage Firewalls
