@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-24"
+lastupdated: "2026-02-25"
 
 keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud
 
@@ -24,7 +24,7 @@ industry: Federal government, Government
 
 compliance: FedRAMP
 
-content-type: solution
+content-type: white-paper
 
 production: false
 
