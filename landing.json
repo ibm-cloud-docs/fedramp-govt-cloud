@@ -21,10 +21,16 @@
   },
   "section_highlights": [
     {
-      "title": "Resource title",
-      "description": "Short description of resource content.",
-      "href": "https://www.example.ibm.com/link/to/resource",
-      "type": "blog"
+      "title": "FedRAMP Rev5 Guidance",
+      "description": "FedRAMP Rev5 Documentation.",
+      "href": "https://www.fedramp.gov/docs/rev5",
+      "type": "website"
+    },
+    {
+      "title": "IBM Cloud for Government",
+      "description": "IBM Cloud for Government description.",
+      "href": "https://www.ibm.com/products/cloud/government",
+      "type": "website"
     }
   ],
   "section_updates": {
