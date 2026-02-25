@@ -24,7 +24,7 @@ industry: Federal government, Government
 
 compliance: FedRAMP
 
-content-type: white-paper
+content-type: reference
 
 production: false
 
