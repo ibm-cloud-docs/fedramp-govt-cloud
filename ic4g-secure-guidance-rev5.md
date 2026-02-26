@@ -82,7 +82,7 @@ Once approved, the request is sent to IBM's Federal Quote to Cash (Q2C) group th
 #### Creation of the Master User account
 {: #frr-src-01-guidance-create-mstr-account}
 
-The Infrastructure Management System (IMS) system generates a numerical Account ID for each new account. This id has a format like 123456. The account name is set by the Federal Q2C team based on the information entered in the account request form. Typically, it's the name of the customer organization, such as ABC Company, with the flexibility to modify it to reflect more detail such as a Division Name.
+The Infrastructure Management System (IMS) system generates a numerical Account ID for each new account. This id has a format like *123456*. The account name is set by the Federal Q2C team based on the information entered in the account request form. Typically, it's the name of the customer organization, such as *ABC Company*, with the flexibility to modify it to reflect more detail such as a Division Name.
 
 #### Closing an account in IC4G
 {: #frr-src-01-guidance-close-account}
@@ -98,7 +98,7 @@ After all billing items have been effectively canceled, a ticket should be creat
 
 In IC4G, the top-level administrative account, who is the "Owner" of the account, is referred to as the account "Master User". There is only 1 of these per account. It's created at the same time the account is created and can't be deleted.
 
-The Federal Q2C group sets up the account and the primary account holder (Master User of the account as specified in the request form) receives a system-generated welcome email. The Master User then resets the password for the account to become usable. 2FA and Security Questions/Answers are not set automatically and it's highly recommended that these be set up by the Master User registering the new account.
+The Federal Q2C group sets up the account and the primary account holder (Master User of the account as specified in the request form) receives a system-generated welcome email. The Master User then resets the password for the account to become usable. 2FA and Security Questions/Answers aren't set automatically and it's highly recommended that these be set up by the Master User registering the new account.
 
 The Master User is the Owner of the account, and implicitly has any and every possible IC4G permission. So, for example, if a new permission is added to the IC4G system in the future, only the Master User would be implicitly granted that new permission. Any other user would have to have their permission set explicitly augmented with a grant for this new permission.
 
@@ -237,7 +237,7 @@ Once a user has been added to the account, the Master user can assign the follow
 - Manage Firewall Rules
 - Manage Load Balancers
 - Manage Network Subnet Routes
-- Manage Port Control (used to view port status and speeds for connected devices)
+- Manage Port Control
 - Manage Security Groups
 - View Bandwidth Statistics
 - Manage Firewalls
@@ -271,7 +271,7 @@ Once a user has been added to the account, the Master user can assign the follow
 #### API and Virtual Private Network (VPN) Access
 {: #frr-src-01-guidance-api-vpn-access}
 
-In the User List there are 2 columns with hyperlinks for **API Key** and **VPN Access**.
+In the User List there are 2 columns with hyper links for **API Key** and **VPN Access**.
 
 To generate an API Key for a user, the Master User clicks the **Generate** hyperlink. That generates a key and launches a *pop-up notification* that the API Key has been generated.
 
@@ -318,7 +318,7 @@ Providers must create and maintain guidance that explains security-related setti
 ### Admin User
 {: #frr-src-02-guidance-admin-user}
 
-The Master User can create administrative users within the account under them and assign most of the privileges of the Master User to them. These are otherwise normal account users but with elevated permissions and rights granted to them. There shouldn't be any security-related settings that are solely managed by the Master User.
+The Master User can create administrative users within the account under them and assign most of the privileges of the Master User to them. These are otherwise normal account users but with elevated permissions and rights granted to them. There should be no security-related settings that are solely managed by the Master User.
 
 The user with admin privileges can then control attributes for other non-admin users - Show API Key, Remove API Key, Reset Password, Change User Status, View Audit Log, Edit Portal Access, Edit VPN Access, Remove User.
 
