@@ -1,5 +1,7 @@
 ---
 
+title: IBM Cloud for Government (IC4G) Rev5 Secure Configuration Guidance
+
 copyright:
   years: 2026
 lastupdated: "2026-02-26"
