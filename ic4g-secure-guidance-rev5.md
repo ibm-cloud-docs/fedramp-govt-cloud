@@ -4,7 +4,7 @@ copyright:
   years: 2026
 lastupdated: "2026-02-26"
 
-keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud
+keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud, IBM Federal Cloud
 
 subcollection: fedramp-govt-cloud
 
