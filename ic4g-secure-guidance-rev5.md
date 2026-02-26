@@ -77,12 +77,12 @@ In an IC4G customer account, there are three types of user accounts: Master User
 
 An IBM Salesperson fills out a form requesting the creation of a customer account in IBM Cloud for Government (IC4G). This request is reviewed and approved by the IC4G Offering Manager to ensure that it's a valid request from a known customer and the contact details aren't suspicious.
 
-Once approved, the request is sent to IBM's Federal Quote to Cash (Q2C) group that reviews and validates all relevant details – contact information, Master User details, billing details, and so on are provided.
+Once approved, the request is sent to IBM's Federal Quote to Cash (Q2C) group that reviews and validates all relevant details such as contact information, Master User details, billing details, and so on are provided.
 
 #### Creation of the Master User account
 {: #frr-src-01-guidance-create-mstr-account}
 
-The Infrastructure Management System (IMS) system generates a numerical Account ID for each new account. This id will have a format like 123456. The account name is set by the Federal Q2C team based on the information entered in the account request form. Typically, it's the name of the customer organization, such as ABC Company, with the flexibility to modify it to reflect more detail such as a Division Name.
+The Infrastructure Management System (IMS) system generates a numerical Account ID for each new account. This id has a format like 123456. The account name is set by the Federal Q2C team based on the information entered in the account request form. Typically, it's the name of the customer organization, such as ABC Company, with the flexibility to modify it to reflect more detail such as a Division Name.
 
 #### Closing an account in IC4G
 {: #frr-src-01-guidance-close-account}
@@ -302,9 +302,9 @@ The SSL User now can connect to the VPN for the two IBM Cloud for Government dat
 
 The user can log in to either VPN endpoint to gain access to their environment.
 
-Upon logging in, the site will detect if the SSL VPN is installed and launch or download automatically.
+Upon logging in, the site detects if the SSL VPN is installed, and launch or download automatically.
 
-Install the MotionPro VPN from Array Networks. If isn't installed already, that will be reflected by the lack of an icon in the Windows Taskbar. This VPN connection allows access into your private network space.
+Install the MotionPro VPN from Array Networks. If isn't installed already, that is reflected by the lack of an icon in the Windows Taskbar. This VPN connection allows access into your private network space.
 
 The Master User or Admin User can control attributes for other non-admin users - Show API Key, Remove API Key, Reset Password, Change User Status, View Audit Log, Edit Portal Access, Edit VPN Access, Remove User.
 
