@@ -24,7 +24,7 @@ industry: Federal government, Government
 
 compliance: FedRAMP
 
-content-type: reference
+content-type: compliance
 
 production: false
 
@@ -34,7 +34,7 @@ production: false
 
 # IBM Cloud for Government (IC4G) Rev5 Secure Configuration Guidance
 {: #ic4g-rev5-secure-configuration-guidance}
-{: toc-content-type="industry"}
+{: toc-content-type="compliance"}
 {: toc-industry="Federal government, Government"}
 {: toc-use-case="Federal government, Government"}
 {: toc-compliance="FedRAMP"}
