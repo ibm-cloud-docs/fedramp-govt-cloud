@@ -24,7 +24,7 @@ industry: Federal government, Government
 
 compliance: FedRAMP
 
-content-type: compliance
+content-type: deployment
 
 production: false
 
@@ -34,7 +34,7 @@ production: false
 
 # IBM Cloud for Government (IC4G) Rev5 Secure Configuration Guidance
 {: #ic4g-rev5-secure-configuration-guidance}
-{: toc-content-type="compliance"}
+{: toc-content-type="overview"}
 {: toc-industry="Federal government, Government"}
 {: toc-use-case="Federal government, Government"}
 {: toc-compliance="FedRAMP"}
@@ -46,9 +46,6 @@ Comprehensive security configuration guidance for IC4G services aligned with Fed
 {: #about-fedramp-rev5-requirements}
 
 FedRAMP Revision 5 introduces ten new Recommended Secure Configuration (FRR-RSC) requirements that cloud service providers must address to help federal agencies secure their cloud environments. IC4G provides guidance to align with these configuration requirements.
-
-## What IC4G Provides
-{: #what-ic4g-provides}
 
 ### Administrative Account Guidance
 {: #admin-account-guidance}
