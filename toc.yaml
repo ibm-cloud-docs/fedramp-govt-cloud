@@ -12,6 +12,6 @@ toc:
     label: IBM Cloud for Government (IC4G) Secure Configuration Guidance
   entries:
   - navgroup:
-      id: overview
+      id: reference
       topics:
       - ic4g-secure-guidance-rev5.md
