@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-25"
+lastupdated: "2026-02-26"
 
 keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud
 
@@ -53,7 +53,7 @@ FedRAMP Revision 5 introduces ten new Recommended Secure Configuration (FRR-RSC)
 ### Administrative Account Guidance
 {: #admin-account-guidance}
 
-## IC4G Rev5 Secure Configuration Guidance – Admin Guidance
+## IC4G Rev5 Secure Configuration Guidance - Admin Guidance
 {: #ic4g-admin-guidance}
 
 This topic discusses top level admin guidance.
@@ -77,19 +77,19 @@ In an IC4G customer account, there are three types of user accounts: Master User
 
 An IBM Salesperson fills out a form requesting the creation of a customer account in IBM Cloud for Government (IC4G). This request is reviewed and approved by the IC4G Offering Manager to ensure that it's a valid request from a known customer and the contact details aren't suspicious.
 
-Once approved, the request is sent to IBM's ST&S (Sales Transaction & Support) group that reviews and validates all relevant details – contact information, Master User details, billing details, and so on are provided.
+Once approved, the request is sent to IBM's Federal Quote to Cash (Q2C) group that reviews and validates all relevant details – contact information, Master User details, billing details, and so on are provided.
 
 #### Creation of the Master User account
 {: #frr-src-01-guidance-create-mstr-account}
 
-The Infrastructure Management System (IMS) system generates a numerical Account ID for each new account. This id will be something like 123456. The account name is set by the ST&S team based on the information entered in the account request form. Typically, it's the name of the customer organization, such as ABC Company, with the flexibility to modify it to reflect more detail such as a Division Name.
+The Infrastructure Management System (IMS) system generates a numerical Account ID for each new account. This id will have a format like 123456. The account name is set by the Federal Q2C team based on the information entered in the account request form. Typically, it's the name of the customer organization, such as ABC Company, with the flexibility to modify it to reflect more detail such as a Division Name.
 
 #### Closing an account in IC4G
 {: #frr-src-01-guidance-close-account}
 
 If a customer wants to close their account they should first make sure that all billing items have been canceled. The customer can do this at any time during the billing period. They have the option to "schedule" the cancel of the device immediately or at the end of the billing cycle. Steps to cancel items in the customer portal: *Log in to* the customer portal and navigate to Account->Billing->Billing Items and then select All Billing Items in the drop down. The customer may cancel remaining services when they're ready for those services to be stopped.
 
-An easy way for the customer to verify everything is canceled is to check the "next invoice" in the customer portal by going to Account > Billing > Invoices and clicking on Next recurring invoice to check if anything is listed and the amount due is zero.
+An easy way for the customer to verify everything is canceled is to check the "Next Invoice" in the customer portal by going to Account > Billing > Invoices and clicking on **Next recurring invoice** to check if anything is listed and that the amount due is zero.
 
 After all billing items have been effectively canceled, a ticket should be created requesting the account be closed.
 
@@ -98,7 +98,7 @@ After all billing items have been effectively canceled, a ticket should be creat
 
 In IC4G, the top-level administrative account, who is the "Owner" of the account, is referred to as the account "Master User". There is only 1 of these per account. It's created at the same time the account is created and can't be deleted.
 
-The ST&S group sets up the account and the primary account holder (Master User of the account as specified in the request form) will receive a system-generated welcome email. The Master User then resets the password for the account to become usable. 2FA and Security Questions/Answers are not set automatically and it's highly recommended that these be set up by the Master User registering the new account.
+The Federal Q2C group sets up the account and the primary account holder (Master User of the account as specified in the request form) receives a system-generated welcome email. The Master User then resets the password for the account to become usable. 2FA and Security Questions/Answers are not set automatically and it's highly recommended that these be set up by the Master User registering the new account.
 
 The Master User is the Owner of the account, and implicitly has any and every possible IC4G permission. So, for example, if a new permission is added to the IC4G system in the future, only the Master User would be implicitly granted that new permission. Any other user would have to have their permission set explicitly augmented with a grant for this new permission.
 
@@ -154,12 +154,12 @@ Once a user has been added to the account, the Master user can assign the follow
 ##### Administrative
 {: #frr-src-01-guidance-administrative}
 
-- Account Billing System - permission to access
-- Add Brand Account – permission to create
-- Automated Brand Migration – permission to interface
+- Account Billing System
+- Add Brand Account
+- Automated Brand Migration
 - Manage Account Notes
 - Manage EU Supported Account Flag (This is set to **No** for all IC4G accounts)
-- Manage Users – manage users and assign permissions
+- Manage Users
 - Physically Access a Datacenter
 - Update Payment Details
 - View Event Log
@@ -179,12 +179,12 @@ Once a user has been added to the account, the Master user can assign the follow
 - Add / Upgrade Services
 - Cancel Server
 - Upgrade Server
-- View Billing ACH information (This is not applicable to IC4G)
+- View Billing ACH information (This isn't applicable to IC4G)
 - Add / Upgrade Cloud Instances
 - Add / Upgrade Storage
 - Cancel Services
 - Upgrade Services
-- View Reseller Order Pricing (This is not applicable to IC4G)
+- View Reseller Order Pricing (This isn't applicable to IC4G)
 
 ##### Support
 {: #frr-src-01-guidance-support}
@@ -198,25 +198,25 @@ Once a user has been added to the account, the Master user can assign the follow
 ##### Security
 {: #frr-src-01-guidance-security}
 
-- Manage Certificates (SSL) – add, remove, update (including the private key)
+- Manage Certificates (SSL)
 - Manage SSH Keys
-- View Certificates (SSL) – including the private key
-- Manage SAML Authentication – create, edit, delete
+- View Certificates (SSL)
+- Manage SAML Authentication
 - Request Compliance Report
 
 ##### Devices
 {: #frr-src-01-guidance-devices}
 
 - Access Virtual Dedicated Hosts
-- All Guest Access – access all guests on account
-- Edit Hostname / Domain – for devices on the account
-- Host IDS – view Host IDS logs
+- All Guest Access
+- Edit Hostname / Domain
+- Host IDS
 - Manage Configuration Template
 - Manage Device Monitoring
 - Manage Public Images
 - Storage Manage
 - View Location Reservation
-- View Virtual Server Details – information such as IP information, OS type, passwords, and so on. Can also update virtual server passwords in the portal
+- View Virtual Server Details
 - View and Edit Virtual Guest
 - Add IP Addresses
 - All Hardware Access
@@ -242,27 +242,27 @@ Once a user has been added to the account, the Master user can assign the follow
 - View Bandwidth Statistics
 - Manage Firewalls
 - Manage Network Gateways
-- Manage Network VLAN Spanning – private network
-- Manage Private Endpoint Services – permission to connect and disconnect account with private endpoint services
-- VPN Administration – manage VPN access for all users
+- Manage Network VLAN Spanning
+- Manage Private Endpoint Services
+- VPN Administration
 - View CDN Bandwidth Statistics
 
 ##### Software
 {: #frr-src-01-guidance-software}
 
-- Manage Antivirus / Spyware – view and edit logs and settings
-- Openstack Link – permission to initiate and delete Openstack link
-- View Helm – view login information
-- View QuantaStor – view login information
+- Manage Antivirus / Spyware
+- Openstack Link
+- View Helm
+- View QuantaStor
 - View and Edit Disk Images
 - View and Edit Software Component
 - View Licenses
 - Manage Firewall Software
 - View Customer Software Password
-- View Plesk – view login information
-- View Urchin – view login information
+- View Plesk
+- View Urchin
 - View and Edit Manage Image Template
-- View cPanel – view login information
+- View cPanel
 - View Software Account License
 
 ### Device Access
@@ -304,9 +304,7 @@ The user can log in to either VPN endpoint to gain access to their environment.
 
 Upon logging in, the site will detect if the SSL VPN is installed and launch or download automatically.
 
-Install the MotionPro VPN from Array Networks. If isn't installed already, the Systray in Windows will have "A"
-
-From this VPN connection it will allow access into your private network space.
+Install the MotionPro VPN from Array Networks. If isn't installed already, that will be reflected by the lack of an icon in the Windows Taskbar. This VPN connection allows access into your private network space.
 
 The Master User or Admin User can control attributes for other non-admin users - Show API Key, Remove API Key, Reset Password, Change User Status, View Audit Log, Edit Portal Access, Edit VPN Access, Remove User.
 
