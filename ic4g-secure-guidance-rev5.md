@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-26"
+lastupdated: "2026-02-27"
 
 keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud, IBM Federal Cloud
 
@@ -53,7 +53,7 @@ FedRAMP Revision 5 introduces ten new Recommended Secure Configuration (FRR-RSC)
 ## IC4G Rev5 Secure Configuration Guidance - Admin Guidance
 {: #ic4g-admin-guidance}
 
-This topic discusses top level admin guidance.
+This topic discusses top-level admin guidance.
 
 **Important Disclaimer:** This document provides IC4G recommended practices and guidance only. It doesn't constitute legal, compliance, or regulatory advice. Organizations are solely responsible for determining their compliance requirements and implementing appropriate controls. Customers should verify current service capabilities and limitations through official documentation before implementation.
 
@@ -68,6 +68,8 @@ In an IC4G customer account, there are three types of user accounts: Master User
 
 ### 1. Account Opening & Closure
 {: #frr-src-01-guidance-acct-open-close}
+
+This section describes the creation and deletion of a customer account in IBM Cloud for Government.
 
 #### Requesting a customer account in IC4G
 {: #frr-src-01-guidance-request-acct}
@@ -141,7 +143,7 @@ A Master User using the customer portal UI would create users with the following
 - Prevent use of previous passwords
 - Require security questions?
 
-Valid passwords must be between 8 and 20 characters in length, with a combination of upper and lower case characters, at least one number, and at least one special character.
+Valid passwords must be between 8 and 20 characters in length, with a combination of upper-case and lower-case characters, at least one number, and at least one special character.
 
 #### Add User
 {: #frr-src-01-guidance-add-user}
