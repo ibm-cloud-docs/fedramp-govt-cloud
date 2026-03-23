@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-27"
+lastupdated: "2026-03-23"
 
 keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud, IBM Federal Cloud
 
@@ -113,7 +113,7 @@ Changing the "human owner" of the Master User identity (meaning the person who k
 A Master User using the customer portal UI would create users with the following steps:
 
 1. Login to the IBM Cloud for Government Portal Site
-2. *click* Account
+2. *Click* Account
 3. Select Users → User List
 4. Click the Add User
 5. Fill the form per user
