@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-27"
+lastupdated: "2026-09-18"
 
 keywords: Federal, FedRAMP, IBM Cloud for Government, IC4G, Federal Cloud, IBM Federal Cloud
 
@@ -24,7 +24,7 @@ industry: Federal government, Government
 
 compliance: FedRAMP
 
-content-type: deployment
+content-type: tutorial
 
 production: false
 
@@ -34,7 +34,7 @@ production: false
 
 # IBM Cloud for Government (IC4G) Rev5 Secure Configuration Guidance
 {: #ic4g-rev5-secure-configuration-guidance}
-{: toc-content-type="deployment"}
+{: toc-content-type="tutorial"}
 {: toc-industry="Federal government, Government"}
 {: toc-use-case="Federal government, Government"}
 {: toc-compliance="FedRAMP"}
@@ -45,7 +45,7 @@ Comprehensive security configuration guidance for IC4G services aligned with Fed
 ## About FedRAMP Rev5 RSC Requirements
 {: #about-fedramp-rev5-requirements}
 
-FedRAMP Revision 5 introduces ten new Recommended Secure Configuration (FRR-RSC) requirements that cloud service providers must address to help federal agencies secure their cloud environments. IC4G provides guidance to align with these configuration requirements.
+FedRAMP Revision 5 introduces ten new Recommended Secure Configuration (FRR-RSC) requirements that cloud service providers (CSPs) must address to help federal agencies secure their cloud environments. IBM Cloud for Government (IC4G) provides guidance to align with these configuration requirements.
 
 ### Administrative Account Guidance
 {: #admin-account-guidance}
@@ -113,7 +113,7 @@ Changing the "human owner" of the Master User identity (meaning the person who k
 A Master User using the customer portal UI would create users with the following steps:
 
 1. Login to the IBM Cloud for Government Portal Site
-2. *click* Account
+2. *Click* Account
 3. Select Users → User List
 4. Click the Add User
 5. Fill the form per user
